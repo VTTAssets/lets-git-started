@@ -1,3 +1,4 @@
+const messageType = "greeting";
 const message = "Hello World";
 
-console.log(`**${message}**`);
+console.log(`[${messageType.toUpperCase()}] ${message}`);
